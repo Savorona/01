@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Сервіс Обліку Студентів</title>
+  <meta name="description" value="Система Обліку Студентів Навчального Закладу"/>
+  <!-- Include Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
+
+  <style type="text/css">.col-xs-12, .col-xs-4, .col-xs-8 {border:px solid red;}</style>
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+
+<body>
+  
+  <!-- Start Container -->
+  
+  <div class="container">
+    
+    <h1>Форма редагування студента</h1>
+      
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">Ім'я*</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control">
+          </div>
+      </div>
+    </form>  
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">По-батькові</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control">
+          </div>
+      </div>
+    </form>  
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">Прізвище*</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control">
+          </div>
+      </div>
+    </form>  
+  
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">№ Білету*</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control">
+          </div>
+      </div>
+    </form>  
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">Дата народження</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control">
+          </div>
+      </div>
+    </form>  
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">Фото</label>
+          <div class="col-sm-6">
+            <table>
+                    <tr>
+                        <td>Наразі :<a href="./img/01.JPG">/data/work/img/01.jpg</a></td>
+                        <td><div class="checkbox">
+                              <label>
+                                <input type="checkbox" value="check1">
+                              </label>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                      </table>
+                      Очистити<br><br>
+
+                      Змінити: <input type="submit" value="Оберіть файл" <h4>Файл не обрано</h4> 
+
+                    
+          </div>
+      </div>
+    </form>  
+   
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">Група*</label>
+          <div class="col-sm-3">
+            <select class="form-control">
+              <option value="">МтМ - 20</option>
+              <option value="">МтМ - 21</option>
+              <option value="">МтМ - 22</option>
+            </select>
+          </div>
+      </div>
+    </form>
+
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label class="control-label col-sm-2">Додаткові нотатки</label>
+        <div class="col-sm-3">
+          <textarea class="form-control" id="comment" rows="5" wrap="soft"></textarea>
+        </div>
+      </div>
+    </form>  
+
+
+    <div class="row">
+      <div class="col-xs-6 col-md-2"></div>
+        <p class="bg-info">
+          <button type="button" class="btn btn-primary">Зберегти</button>
+          <button type="button" class="btn btn-link">Скасувати</button>
+        </p> 
+    </div>   
+  </div>  
+  
+
+  <!-- End Container -->  
+
+</body>
+
+</html>
